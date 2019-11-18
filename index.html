@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Showcase Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -11,9 +12,9 @@
       <nav class="nav">
         <img src="cdw-logo.png" class="logo">
         <div class="nav-contents">
-          <form class="form" action="index.html" method="post">
+          <form class="form-wrapper" action="index.html" method="post">
             <input id="search-bar" type="text" name="text" placeholder="Search here...">
-            <button id="search-button" type="submit" name="submit"><i class="fas fa-search"></i></button>
+            <button id="search-button" type="submit" name="submit"><i id="search-icon" class="fas fa-search"></i></button>
           </form>
           <ul class="main-nav">
               <li><a href="#">Hardware</a></li>
@@ -28,7 +29,14 @@
       </nav>
     </div>
     <main>
-
+      <header class="hero">
+        <div class="center-content">
+          <h1>An Article Title</h1>
+          <p>Some content about the product</p>
+          <a href="#" class="button">Some Action Here</a>
+        </div>
+      </header>
+      <p>content below the header here</p>
     </main>
   </body>
 </html>
